@@ -1,112 +1,187 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
+body {
     font-family: sans-serif;
 }
 
 /* * Background * */
 
-.bg-orange{ background-color: orangered;}
-.bg-red{background-color: red;}
-.bg-green{background-color: green;}
-.bg-white{background-color: white;}
+.bg-orange {
+    background-color: orangered;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-black{
+    background-color: black;
+}
 
 /* * Width * */
 
-.wt-100 { width: 100%;}
-.wt-10{width: 10px;}
-.wt-300 { width: 300px;}
+.wt-100 {
+    width: 100%;
+}
+
+.wt-10 {
+    width: 10px;
+}
+
+.wt-300 {
+    width: 300px;
+}
 
 /* * Height * */
 
-.ht-50 { height: 50px;}
-.ht-20 {height: 20px;}
-.max-height { max-height: 600px;}
+.ht-50 {
+    height: 50px;
+}
+
+.ht-20 {
+    height: 20px;
+}
+
+.max-height {
+    max-height: 600px;
+}
 
 /* * Padding * */
 
-.pg-16 {padding: 16px;}
-.pg-4 {padding: 4px;}
+.pg-16 {
+    padding: 16px;
+}
+
+.pg-4 {
+    padding: 4px;
+}
+
 
 /* * Margin * */
 
-.mgt-50{margin-top: 50px;}
+.mgt-50 {
+    margin-top: 50px;
+}
+
+.mgb-10{margin-bottom: 10px;}
 
 /* * Text * */
 
-.color-white {color: white;}
-.color-red{color: red;}
-.stroke{text-decoration: line-through;}
+.color-white {
+    color: white;
+}
+
+.color-red {
+    color: red;
+}
+
+.stroke {
+    text-decoration: line-through;
+}
 
 /* * Font * */
 
-.fs-14 {font-size: 14px;}
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-16{font-size: 16px;}
+
+.fw-b{font-weight: bold;}
 
 /* * Relative * */
 
-.relative{position: relative;}
+.relative {
+    position: relative;
+}
 
 /* * Absolute * */
-.absolute{position: absolute;}
+.absolute {
+    position: absolute;
+}
 
 /* * Bottom Left * */
-.bl{left: 0; bottom: 100px;}
+.bl {
+    left: 0;
+    bottom: 100px;
+}
 
 /* * Top Right * */
-.tr{top: 5px; right: 0;}
+.tr {
+    top: 5px;
+    right: 0;
+}
 
 /* Header */
 
-header{
-    /* position: fixed;
-    top: 0;
-    left: 0; */
+header {
+    /* position: fixed; */
+    /* top: 0; */
+    /* z-index: 999; */
 }
 
-.navbar{
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
-   margin-bottom: 50px;
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
 }
 
-.photocontainer{
+
+.photocontainer {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     width: 70%;
     margin: auto;
-    
+
 }
 
-.photo{
+.photo {
     width: 300px;
     position: relative;
     margin-bottom: 20px;
 }
 
-.photo1:hover .photo2{
-    z-index: 1;
+.photo2 {
     display: none;
-    
 }
 
-.photo1{
-   z-index: 0;
-   
+.photo:hover .photo1 {
+    display: none;
+
 }
 
-.heart{
+.photo:hover .photo2 {
+    display: block;
+}
+
+
+.heart {
     width: 25px;
     height: 25px;
     text-align: center;
 }
 
-.heart:hover{
+.heart:hover {
     color: red;
+}
+
+.blackcontainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }

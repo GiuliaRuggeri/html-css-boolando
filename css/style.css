@@ -1,0 +1,112 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+/* * Background * */
+
+.bg-orange{ background-color: orangered;}
+.bg-red{background-color: red;}
+.bg-green{background-color: green;}
+.bg-white{background-color: white;}
+
+/* * Width * */
+
+.wt-100 { width: 100%;}
+.wt-10{width: 10px;}
+.wt-300 { width: 300px;}
+
+/* * Height * */
+
+.ht-50 { height: 50px;}
+.ht-20 {height: 20px;}
+.max-height { max-height: 600px;}
+
+/* * Padding * */
+
+.pg-16 {padding: 16px;}
+.pg-4 {padding: 4px;}
+
+/* * Margin * */
+
+.mgt-50{margin-top: 50px;}
+
+/* * Text * */
+
+.color-white {color: white;}
+.color-red{color: red;}
+.stroke{text-decoration: line-through;}
+
+/* * Font * */
+
+.fs-14 {font-size: 14px;}
+
+/* * Relative * */
+
+.relative{position: relative;}
+
+/* * Absolute * */
+.absolute{position: absolute;}
+
+/* * Bottom Left * */
+.bl{left: 0; bottom: 100px;}
+
+/* * Top Right * */
+.tr{top: 5px; right: 0;}
+
+/* Header */
+
+header{
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+}
+
+.navbar{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-bottom: 50px;
+}
+
+.photocontainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+    
+}
+
+.photo{
+    width: 300px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.photo1:hover .photo2{
+    z-index: 1;
+    display: none;
+    
+}
+
+.photo1{
+   z-index: 0;
+   
+}
+
+.heart{
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+.heart:hover{
+    color: red;
+}

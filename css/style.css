@@ -46,6 +46,10 @@ body {
 
 /* * Height * */
 
+.ht-70 {
+    height: 70px;
+}
+
 .ht-50 {
     height: 50px;
 }
@@ -53,6 +57,8 @@ body {
 .ht-20 {
     height: 20px;
 }
+
+.ht-30{height: 30px}
 
 .max-height {
     max-height: 600px;
@@ -127,9 +133,10 @@ body {
 /* Header */
 
 header {
-    /* position: fixed; */
-    /* top: 0; */
-    /* z-index: 999; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
 }
 
 .navbar {
@@ -139,6 +146,9 @@ header {
     margin-bottom: 50px;
 }
 
+main{
+    margin-top: 100px;
+}
 
 .photocontainer {
     display: flex;
